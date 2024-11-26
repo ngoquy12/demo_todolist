@@ -1,0 +1,46 @@
+.base-button {
+  border: 1px solid transparent;
+  padding: 0 16px;
+  border-radius: 4px;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.base-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.base-button:hover {
+  opacity: 0.8;
+  transform: scale(1.5);
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.btn-sm {
+  height: 32px;
+}
+
+.btn-md {
+  height: 36px;
+}
+
+.btn-lg {
+  height: 40px;
+}
